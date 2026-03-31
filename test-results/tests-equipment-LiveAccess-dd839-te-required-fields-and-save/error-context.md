@@ -1,0 +1,170 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - img "TPS" [ref=e7]
+      - generic [ref=e8]:
+        - button "Dashboard" [ref=e9] [cursor=pointer]:
+          - img [ref=e10]
+          - text: Dashboard
+        - button "Global Search" [ref=e15] [cursor=pointer]:
+          - img [ref=e16]
+          - text: Global Search
+        - generic [ref=e19]: Master Data
+        - button "Equipment" [ref=e20] [cursor=pointer]:
+          - img [ref=e21]
+          - text: Equipment
+        - button "Spare Part" [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+          - text: Spare Part
+        - button "Document" [ref=e28] [cursor=pointer]:
+          - img [ref=e29]
+          - text: Document
+        - button "Pricing Rules" [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Pricing Rules
+        - generic [ref=e34]: Management
+        - button "Clients" [ref=e35] [cursor=pointer]:
+          - img [ref=e36]
+          - text: Clients
+        - button "Projects" [ref=e41] [cursor=pointer]:
+          - img [ref=e42]
+          - text: Projects
+        - generic [ref=e45]: Admin
+        - button "Users" [ref=e46] [cursor=pointer]:
+          - img [ref=e47]
+          - text: Users
+        - button "Audit Log" [ref=e50] [cursor=pointer]:
+          - img [ref=e51]
+          - text: Audit Log
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: SO
+          - generic [ref=e56]:
+            - paragraph [ref=e57]: somveer gurjar
+            - paragraph [ref=e58]: Super Admin
+        - button "Sign Out" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+          - text: Sign Out
+  - generic [ref=e63]:
+    - banner [ref=e64]:
+      - generic [ref=e65]:
+        - heading "equipment" [level=1] [ref=e66]
+        - generic [ref=e69]: Tuesday, March 31, 2026
+    - main [ref=e70]:
+      - generic [ref=e72]:
+        - generic [ref=e73]:
+          - generic [ref=e75]:
+            - button [ref=e76] [cursor=pointer]:
+              - img [ref=e77]
+            - generic [ref=e79]:
+              - heading "New Equipment Record" [level=1] [ref=e80]
+              - generic [ref=e81]:
+                - generic [ref=e82]: E01026
+                - generic [ref=e83]: •
+                - generic [ref=e84]: NEW
+                - generic [ref=e85]: •
+                - generic [ref=e86]: Global Master Definition
+          - generic [ref=e87]:
+            - button "Equipment Identification" [ref=e88] [cursor=pointer]:
+              - img [ref=e89]
+              - text: Equipment Identification
+            - button "Performance" [ref=e93] [cursor=pointer]:
+              - img [ref=e94]
+              - text: Performance
+            - button "Mechanical" [ref=e96] [cursor=pointer]:
+              - img [ref=e97]
+              - text: Mechanical
+            - button "Automation / Control" [ref=e99] [cursor=pointer]:
+              - img [ref=e100]
+              - text: Automation / Control
+            - button "Electrical Protection" [ref=e103] [cursor=pointer]:
+              - img [ref=e104]
+              - text: Electrical Protection
+            - button "Motor Data" [ref=e106] [cursor=pointer]:
+              - img [ref=e107]
+              - text: Motor Data
+            - button "Rotating Equipment" [ref=e109] [cursor=pointer]:
+              - img [ref=e110]
+              - text: Rotating Equipment
+            - button "Gearbox Data" [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - text: Gearbox Data
+            - button "Commercial" [ref=e125] [cursor=pointer]:
+              - img [ref=e126]
+              - text: Commercial
+            - button "Spare Parts Linking" [ref=e131] [cursor=pointer]:
+              - img [ref=e132]
+              - text: Spare Parts Linking
+            - button "Documents Linking" [ref=e135] [cursor=pointer]:
+              - img [ref=e136]
+              - text: Documents Linking
+        - generic [ref=e141]:
+          - heading "1. Equipment Identification" [level=3] [ref=e142]
+          - generic [ref=e143]:
+            - generic [ref=e145]:
+              - generic [ref=e146]: TPS ID
+              - textbox "Auto-generated" [disabled] [ref=e147]: E01026
+            - generic [ref=e148]:
+              - generic [ref=e149]: Status
+              - generic [ref=e150]:
+                - combobox [ref=e151]:
+                  - option "SELECT..."
+                  - option "ACTIVE" [selected]
+                  - option "OBSOLETE"
+                - img
+            - generic [ref=e152]:
+              - generic [ref=e153]: Equipment Category
+              - generic [ref=e154]:
+                - combobox [ref=e155]:
+                  - option "SELECT..." [selected]
+                  - option "ANALYTICAL"
+                  - option "FLOW MEASUREMENT"
+                  - option "PROCESS VALVES"
+                  - option "PUMPS"
+                  - option "TANKS"
+                  - option "UTILITY"
+                - img
+            - generic [ref=e156]:
+              - generic [ref=e157]: Equipment Type
+              - generic [ref=e158]:
+                - combobox [ref=e159]:
+                  - option "SELECT..." [selected]
+                  - option "ELEVATED"
+                  - option "HOSE"
+                  - option "INSTRUMENT"
+                  - option "PUMP"
+                  - option "SENSOR"
+                  - option "SPARE PART TC"
+                  - option "VALVE"
+                - img
+            - generic [ref=e160]:
+              - generic [ref=e161]: Manufacturer *
+              - generic [ref=e162]:
+                - textbox "Type to search or add new..." [ref=e163]
+                - img
+              - paragraph [ref=e164]: Manufacturer is required.
+            - generic [ref=e165]:
+              - generic [ref=e166]: Supplier / Vendor *
+              - generic [ref=e167]:
+                - textbox "Type to search or add new..." [ref=e168]
+                - img
+              - paragraph [ref=e169]: Supplier is required.
+            - generic [ref=e170]:
+              - generic [ref=e171]: Supplier Identification No. *
+              - textbox "V-1001-A" [ref=e172]
+              - paragraph [ref=e173]: Supplier Identification No. is required.
+            - generic [ref=e174]:
+              - generic [ref=e175]: Feature
+              - textbox [ref=e176]
+            - generic [ref=e178]:
+              - generic [ref=e179]: Model Information
+              - textbox [ref=e180]
+        - generic [ref=e182]:
+          - button "Cancel" [ref=e183] [cursor=pointer]
+          - button "Save Equipment" [active] [ref=e184] [cursor=pointer]:
+            - img [ref=e185]
+            - text: Save Equipment
+```
