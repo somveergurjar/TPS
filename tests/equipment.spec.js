@@ -55,7 +55,7 @@ test.describe('LiveAccess Equipment module', () => {
 
     // Validate required fields by clicking save without filling
     await page.click('button:has-text("Save Equipment"), button:has-text("Save"), button[type="submit"]');
-    //await expect(page.locator('text=This field is required, text=Required')).toBeVisible({ timeout: 5000 });
+    await expect(page.locator('text=This field is required, text=Required')).toBeVisible({ timeout: 5000 });
 
     // Fill the rest of the fields (assuming common fields: name, description, etc.)
     await page.fill('input[name="name"], input[placeholder*="Name"], #name', 'Test Equipment');
